@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./asset/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="top">
+      <div class="left_section">
+        <img
+          src="/Spotify Clone/asset/logo.png"
+          alt="Spotify logo"
+          class="logo" />
+        <i class="fa-solid fa-house"></i>
+      </div>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="What do you want to play?" />
+        <div class="divider"></div>
+        <i class="fa-solid fa-store"></i>
+      </div>
+      <div class="right_section">
+        <button class="premium_btn">Explore Premium</button>
+        <div class="install_app">
+          <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+          <span>Install App</span>
+        </div>
+        <i class="fa-solid fa-bell"></i>
+        <div class="profile_icon">M</div>
+      </div>
+    </nav>
+    <div class="main">
+      <div class="sidebar">
+        <div class="library">
+          <div class="head">
+            <div class="head_lib">
+              <img src="/Spotify Clone/asset/library_icon.png" />
+              <a href="#">Your Library</a>
+            </div>
+            <div class="icon">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+              <a href="#">Create</a>
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="lib_box">
+            <div class="box">
+              <p class="box_1">Create your first playlist</p>
+              <p class="box_2">It's easy, we'll help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box_1">Let's find some podcast to follow</p>
+              <p class="box_2">We'll keep you updated on new epsiode</p>
+              <button class="badge">Browse podcast</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main_content">
+        <h2>Recently Played</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card1img.jpeg" class="card-img" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">Your daily updates of the most played ...</p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card2img.jpeg" class="card-img" />
+            <p class="tittle">Melodies</p>
+            <p class="info">A soulful journey through timeless music.</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card3img.jpeg" class="card-img" />
+            <p class="tittle">Romantic Vibes</p>
+            <p class="info">Immerse yourself in the magic of love.</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card2img.jpeg" class="card-img" />
+            <p class="tittle">Lofi Serenity</p>
+            <p class="info">A soothing lofi remix of the classic melody</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card3img.jpeg" class="card-img" />
+            <p class="tittle">Emotional Echoes</p>
+            <p class="info">
+              Feel the emotions in every note of this heartfelt rendition.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./asset/card4img.jpeg" class="card-img" />
+            <p class="tittle">NAA READY</p>
+            <p class="info">
+              Experience the electrifying energy of this high-voltage track!
+            </p>
+          </div>
+          <div class="card">
+            <img src="./asset/card2img.jpeg" class="card-img" />
+            <p class="tittle">Fire & Passion</p>
+            <p class="info">
+              Turn up the volume and get ready for an adrenaline-fueled musical
+              ride.
+            </p>
+          </div>
+          <div class="card">
+            <img src="./asset/card4img.jpeg" class="card-img" />
+            <p class="tittle">Power Mode On</p>
+            <p class="info">
+              The track that will get you pumped and ready for anything.
+            </p>
+          </div>
+        </div>
+
+        <h2>Featured Charts</h2>
+        <div class="card-container">
+          <div class="card">
+            <img src="./asset/card5img.jpeg" class="card-img" />
+            <p class="tittle">Top Songs - Global</p>
+            <p class="info">
+              Stay updated with the hottest tracks ruling the global charts..
+            </p>
+          </div>
+          <div class="card">
+            <img src="./asset/card1img.jpeg" class="card-img" />
+            <p class="tittle">Top 50 - Global</p>
+            <p class="info">Your daily updates of the most played tracks ...</p>
+          </div>
+          <div class="card">
+            <img src="./asset/card6img.jpeg" class="card-img" />
+            <p class="tittle">Top Songs - India</p>
+            <p class="info">
+              From Bollywood to Indie hits, discover the most played songs in
+              India..
+            </p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="music_player">
+        <div class="album">
+          <div class="photo">
+            <img src="/Spotify Clone/asset/card2img.jpeg" class="photo-img" />
+          </div>
+          <div class="text">
+            <p class="tt">Mahiye jinna sohna</p>
+            <p class="ii">Atif Aslam,Shreya Ghosal,Sachin-Jigar</p>
+          </div>
+        </div>
+        <div class="players">
+          <div class="player-control">
+            <img src="./asset/player_icon1.png" class="player-control-icon" />
+            <img src="./asset/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./asset/player_icon3.png"
+              class="player-control-icon"
+              style="opacity: 1; height: 2rem; width: 2rem" />
+            <img src="./asset/player_icon4.png" class="player-control-icon" />
+            <img src="./asset/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playeback-bar">
+            <span class="s time">00:30</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="5" />
+            <span class="e time">03:40</span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="buttons">
+            <button class="b"><i class="fa fa-play-circle"></i></button>
+            <button class="b">
+              <i class="fa-solid fa-microphone"></i>
+            </button>
+            <button class="b">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <button class="b">
+              <i class="fa fa-clipboard" aria-hidden="true"></i>
+            </button>
+            <button class="b">
+              <i class="fa fa-volume-up" aria-hidden="true"></i>
+            </button>
+            <input type="range" class="range" />
+            <button class="b">
+              <i class="fa fa-window-restore" aria-hidden="true"></i>
+            </button>
+            <button class="b">
+              <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
